@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+$color-primary:#F25C54;
+$color-darkgray:#4E4E4E;
+$color-lightpink:#FFE5DD;
+$color-skin:#FCD4B6;
+$color-pink:#FBE0EC;
+
+$estilo-h1: (
+    color:#fff,
+    fontsize: 2rem,
+    fontweight: 700,
+);
+
+$estilo-h2: (
+    color: $color-darkgray,
+    fontsize: 1rem,
+    fontweight: 700,
+);
+
+$estilo-h3: (
+    color: $color-darkgray,
+    fontsize: 0.5rem,
+    fontweight: 500,
+);
+
+$estilo-p: (
+    color: $color-darkgray,
+    fontsize: 0.5rem,
+    fontweight: 300,
+);
+
+$estilo-citas: (
+    color: $color-darkgray,
+    fontsize: 1rem,
+    fontweight: 500,
+);
+
+@import "header.scss";
