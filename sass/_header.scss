@@ -1,0 +1,71 @@
+// Estilos header
+.header {
+    background-color: $color-primary;
+    padding: 10px 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 768px) {
+        display: block;
+        padding: 10px 40px;
+    }
+   
+    #check {
+        display: none;
+        @media (max-width: 960px) {
+            &:checked ~ .nav__list {
+                display: block;
+            }
+        }            
+    }
+    .checkbtn {
+        position: absolute;
+        top: 25px;
+        right: 40px;
+        display: none;
+        @media (max-width: 960px) {
+            display: block;
+        }
+        .burger {
+            height: 2rem;            
+        }
+    }          
+    .logo {
+        .logo__img {
+            height: 3.5rem;
+        } 
+    }   
+    .nav__list {
+        display: flex;
+        @media (max-width: 960px) {
+            display: block;
+            height: 100vh;
+            padding-top: 50px;
+            display: none;
+        }
+        .nav__item {
+            .nav__link {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1rem;
+                text-transform: uppercase;
+                color: #fff;
+                margin-left: 20px;
+                border-bottom: 1px solid $color-primary;
+                &:hover {
+                    border-bottom: 1px solid #fff;
+                }
+                @media (max-width: 960px) {
+                    font-size: 2rem;
+                    line-height: 5rem;
+                    &:hover {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }  
+    }  
+}

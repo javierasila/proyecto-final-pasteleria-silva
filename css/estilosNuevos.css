@@ -5,3 +5,61 @@
 
 a {
   text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.header {
+  background-color: #F25C54;
+  padding: 10px 100px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  @media (max-width: 768px) {
+    .header {
+      display: block;
+      padding: 10px 40px; } }
+  .header #check {
+    display: none; }
+    @media (max-width: 960px) {
+      .header #check:checked ~ .nav__list {
+        display: block; } }
+  .header .checkbtn {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    display: none; }
+    @media (max-width: 960px) {
+      .header .checkbtn {
+        display: block; } }
+    .header .checkbtn .burger {
+      height: 2rem; }
+  .header .logo .logo__img {
+    height: 3.5rem; }
+  .header .nav__list {
+    display: flex; }
+    @media (max-width: 960px) {
+      .header .nav__list {
+        display: block;
+        height: 100vh;
+        padding-top: 50px;
+        display: none; } }
+    .header .nav__list .nav__item .nav__link {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: #fff;
+      margin-left: 20px;
+      border-bottom: 1px solid #F25C54; }
+      .header .nav__list .nav__item .nav__link:hover {
+        border-bottom: 1px solid #fff; }
+      @media (max-width: 960px) {
+        .header .nav__list .nav__item .nav__link {
+          font-size: 2rem;
+          line-height: 5rem; }
+          .header .nav__list .nav__item .nav__link:hover {
+            border-bottom: none; } }
