@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berry Bakery - Respondemos tus dudas y recibimos pedidos de pasteles personalizados</title>
+    <!-- CSS stylesheet  -->
+    <!-- <link rel="stylesheet" href="../stylesheet/estilosNuevos.css"> -->
+    <!-- Google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:ital,wght@0,300;0,500;0,700;1,500&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <!-- Meta keywords  -->
+    <meta name="keywords" content="PASTELES PERSONALIZADOS, CONTACTO, ">
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" id="check"> 
+        <label for="check" class="checkbtn">
+            <img src="../images/icons/menu.png" alt="menu" class="burger">
+        </label>
+        <div class="logo">
+             <img src="../images/logos/logo-berry-blanco.svg" alt="Berry Bakery" class="logo__img">
+        </div>
+        <ul class="nav__list">            
+            <li class="nav__item"><a href="../index.html" class="nav__link text-decoration-none align-self-center">Inicio</a></li>
+            <li class="nav__item"><a href="nosotros.html" class="nav__link text-decoration-none">Nosotros</a></li>
+            <li class="nav__item"><a href="productos.html" class="nav__link text-decoration-none">Productos</a></li>
+            <li class="nav__item"><a href="ubicacion.html" class="nav__link text-decoration-none">Ubicación</a></li>
+            <li class="nav__item"><a href="contacto.html" class="nav__link text-decoration-none">Contacto</a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <div class="contacto__title">
+            <h3 class="main__title">Contactanos</h3></div>
+        <div class="form">
+            <div class="form__img">
+                <img src="../images/fotos/contacto-img.jpg" alt="">
+            </div>
+            <form action="/ruta-destino" method="get" enctype="" class="form__list">                
+                <input type="text" name="userName" placeholder="Ingresa tu nombre aquí" class="form__name">
+                <input type="email" name="email" placeholder="Ingresa tu mail aquí" class="form__mail">
+                <input type="tel" name="phone" id="telefono" placeholder="Ingresa tu telefono aquí" required class="form__phone">
+                <div class="checkbox">
+                    <h4> Tipo de pedido</h4>
+                    <label for="personalizado" class="checkbox__label">Pedido personalizado</label>
+                    <input type="radio" name="tipoPedido" id="personalizado" value="personalizado">
+                    <label for="list" class="checkbox__label">Pedido de listado de productos</label>
+                    <input type="radio" name="tipoPedido" id="list" value="list">
+                </div>
+                <textarea name="message" placeholder="Deja tu mensaje" cols="30" rows="10" class="form__input" id="textarea"></textarea>
+                <button type="submit" class="form__button">Enviar</button>
+            </form>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__container1">
+            <div class="logo">
+                <img src="../images/logos/icono-berry-blanco.svg" alt="Berry Bakery" class="logo__img">
+            </div>
+            <div class="newsletter">
+                <h3 class="newsletter__title footer__title">Newsletter</h3>
+                <p class="newsletter__text footer__text">Inscríbete ahora para obtener descuentos y recetas exclusivas</p>
+                <div class="submit">
+                    <input type="text" name="newsletter" placeholder="Introduce tu correo electrónico" class="newsletter__input">
+                    <button type="submit" class="newsletter__btn"> <img src="../images/icons/next-white.png" alt="next"></button>
+                </div>
+            </div>
+            <div class="rrss">
+                <h3 class="rrss__title footer__title">Siguenos</h3>
+                <p class="rrss__text footer__text">Encuentranos en nuestras redes sociales</p>
+                <ul class="rrss__list">
+                    <li class="rrss__items"><a href="#" class="rrss__list"> <img src="../images/icons/icon-ig.png" alt="next" class="rrss__icons"></a></li>
+                    <li class="rrss__items"><a href="#" class="rrss__list"> <img src="../images/icons/icon-fb.png" alt="next" class="rrss__icons"></a></li>
+                    <li class="rrss__items"><a href="#" class="rrss__list"> <img src="../images/icons/icon-yt.png" alt="next" class="rrss__icons"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__container2">
+            <p class="rights">© 2022 Berry Bakery, All Rights Reserved.</p></div.>
+    </footer>
+</body>
+</html>
