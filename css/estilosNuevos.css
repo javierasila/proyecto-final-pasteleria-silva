@@ -196,3 +196,48 @@ li {
         color: #F25C54; }
       .main .hero .hero__aside .hero__btn:hover {
         background-color: #fff; }
+
+.main .destacados {
+  margin: 150px 100px 150px 100px; }
+  .main .destacados .destacados__heading {
+    font-family: 'Montserrat', sans-serif;
+    color: #4E4E4E;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 50px; }
+  .main .destacados .destacados__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch; }
+    .main .destacados .destacados__container .card {
+      width: 30%; }
+      .main .destacados .destacados__container .card .card__img .img {
+        width: 100%; }
+      .main .destacados .destacados__container .card .card__body {
+        font-family: 'Montserrat', sans-serif;
+        color: #4E4E4E;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 20px; }
+        .main .destacados .destacados__container .card .card__body .card__h3 {
+          font-weight: 500;
+          font-size: 1rem; }
+      .main .destacados .destacados__container .card .card__info {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between; }
+        .main .destacados .destacados__container .card .card__info .card__cost {
+          font-weight: 700; }
+        .main .destacados .destacados__container .card .card__info .card__btn {
+          display: inline-flex;
+          align-items: center;
+          text-transform: uppercase; }
+          .main .destacados .destacados__container .card .card__info .card__btn:link, .main .destacados .destacados__container .card .card__info .card__btn :visited {
+            color: #4E4E4E; }
+          .main .destacados .destacados__container .card .card__info .card__btn:hover {
+            font-weight: 700; }
+          .main .destacados .destacados__container .card .card__info .card__btn .arrow2 {
+            height: 1rem;
+            margin-left: 10px; }

@@ -1,4 +1,5 @@
 .main {
+    // Sección Hero
     .hero {
         background-color: $color-primary;
         height: 100vh;
@@ -48,17 +49,69 @@
                 &:hover {
                     background-color: #fff;
                 }
-            }
-
-
-
-
-                
-
-
-            
-
+            }              
+        }       
+    }
+    // Sección destacados
+    .destacados {
+        margin: 150px 100px 150px 100px;
+        .destacados__heading {
+            font-family: 'Montserrat', sans-serif;
+            color: map-get($estilo-h2, color);
+            font-size: map-get($estilo-h2, fontsize);
+            font-weight: map-get($estilo-h2, fontweight);
+            margin-bottom: 50px;
         }
-        
+        .destacados__container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: stretch;
+
+            .card {
+                width: 30%;
+                .card__img {
+                    .img {
+                        width: 100%;
+                    }
+                }
+                .card__body {
+                    font-family: 'Montserrat', sans-serif;
+                    color: map-get($estilo-h3, color);
+                    font-size: map-get($estilo-h3, fontsize);
+                    font-weight: map-get($estilo-h3, fontweight);
+                    margin-top: 20px;
+                    .card__h3 {
+                        font-weight: map-get($estilo-h3, fontweight);
+                        font-size: map-get($estilo-h3, fontsize);
+                    }
+                    
+                }
+                .card__info {
+                    margin-top: 60px;
+                    display: flex;
+                    justify-content: space-between;
+                    .card__cost {
+                        font-weight: 700;
+                    }
+                    .card__btn {
+                        display: inline-flex;
+                        align-items: center;                       
+                        text-transform: uppercase;                      
+                        &:link, :visited {
+                            color: $color-darkgray;                                   
+                        }
+                        &:hover {
+                            font-weight: 700;
+                        }
+                        .arrow2 {
+                            height: 1rem;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
