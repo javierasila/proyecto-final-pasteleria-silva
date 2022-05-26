@@ -153,3 +153,46 @@ li {
       @media (max-width: 768px) {
         .footer .footer__container2 .rights {
           font-size: 0.5 rem; } }
+
+.main .hero {
+  background-color: #F25C54;
+  height: 100vh; }
+  .main .hero .hero__img {
+    width: 28%;
+    position: absolute;
+    top: 150px;
+    right: 100px; }
+  .main .hero .hero__aside {
+    width: 60%;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    padding-left: 100px; }
+    .main .hero .hero__aside .hero__heading {
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      font-size: 4rem;
+      line-height: 1; }
+    .main .hero .hero__aside .hero__text {
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin: 30px 0; }
+    .main .hero .hero__aside .hero__btn {
+      display: inline-flex;
+      align-items: center;
+      background-color: #FFE5DD;
+      color: #F25C54;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #FFE5DD;
+      padding: 20px; }
+      .main .hero .hero__aside .hero__btn .arrow {
+        height: 1.5rem;
+        margin-left: 20px; }
+      .main .hero .hero__aside .hero__btn:link, .main .hero .hero__aside .hero__btn :visited {
+        color: #F25C54; }
+      .main .hero .hero__aside .hero__btn:hover {
+        background-color: #fff; }

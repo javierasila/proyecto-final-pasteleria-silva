@@ -20,8 +20,9 @@ $color-pink:#FBE0EC;
 
 $estilo-h1: (
     color:#fff,
-    fontsize: 2rem,
+    fontsize: 4rem,
     fontweight: 700,
+    linespace:1,
 );
 
 $estilo-h2: (
@@ -50,3 +51,4 @@ $estilo-citas: (
 
 @import "header.scss";
 @import "footer.scss";
+@import "index.scss";
