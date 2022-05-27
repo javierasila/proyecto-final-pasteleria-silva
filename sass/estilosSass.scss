@@ -39,16 +39,18 @@ $estilo-h3: (
 
 $estilo-p: (
     color: $color-darkgray,
-    fontsize: 0.5rem,
+    fontsize: 1rem,
     fontweight: 300,
+    linespace: 1.5,
 );
 
 $estilo-citas: (
     color: $color-darkgray,
-    fontsize: 1rem,
+    fontsize: 1.5rem,
     fontweight: 500,
 );
 
 @import "header.scss";
 @import "footer.scss";
 @import "index.scss";
+@import "nosotros.scss";

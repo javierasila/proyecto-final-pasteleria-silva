@@ -19,6 +19,7 @@
                 font-family: 'Montserrat', sans-serif;
                 color: map-get($estilo-h1, color);
                 font-size: map-get($estilo-h1, fontsize);
+                font-weight: map-get($estilo-h1, fontweight );
                 line-height: map-get($estilo-h1, linespace );
             }
             .hero__text {
