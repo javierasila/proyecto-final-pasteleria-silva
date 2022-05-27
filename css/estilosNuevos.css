@@ -226,7 +226,7 @@ li {
           font-weight: 500;
           font-size: 1rem; }
       .main .destacados .destacados__container .card .card__info {
-        margin-top: 60px;
+        margin-top: 30px;
         display: flex;
         justify-content: space-between; }
         .main .destacados .destacados__container .card .card__info .card__cost {
@@ -428,3 +428,59 @@ li {
     color: #4E4E4E;
     font-size: 1.5rem;
     font-weight: 500; }
+
+.producto__main {
+  margin: 150px 100px 150px; }
+  .producto__main .producto__title .main__title {
+    font-family: 'Montserrat', sans-serif;
+    color: #4E4E4E;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px; }
+  .producto__main .producto__title .main__text {
+    font-family: 'Roboto', sans-serif;
+    color: #4E4E4E;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 150px; }
+  .producto__main .container .card__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 100px;
+    column-gap: 60px; }
+    .producto__main .container .card__container .card {
+      width: 100%; }
+      .producto__main .container .card__container .card .card__img .img {
+        width: 100%; }
+      .producto__main .container .card__container .card .card__body {
+        font-family: 'Montserrat', sans-serif;
+        color: #4E4E4E;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 20px; }
+        .producto__main .container .card__container .card .card__body .card__h3 {
+          font-weight: 500;
+          font-size: 1rem; }
+      .producto__main .container .card__container .card .card__info {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between; }
+        .producto__main .container .card__container .card .card__info .card__cost {
+          font-weight: 700; }
+        .producto__main .container .card__container .card .card__info .card__btn {
+          display: inline-flex;
+          align-items: center;
+          text-transform: uppercase; }
+          .producto__main .container .card__container .card .card__info .card__btn:link, .producto__main .container .card__container .card .card__info .card__btn :visited {
+            color: #4E4E4E; }
+          .producto__main .container .card__container .card .card__info .card__btn:hover {
+            font-weight: 700; }
+          .producto__main .container .card__container .card .card__info .card__btn .arrow2 {
+            height: 1rem;
+            margin-left: 10px; }

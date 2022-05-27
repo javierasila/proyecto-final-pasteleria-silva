@@ -1,0 +1,76 @@
+.producto__main {
+    margin: 150px 100px 150px;
+    .producto__title {
+        .main__title {
+            font-family: 'Montserrat', sans-serif;
+            color: map-get($estilo-h2, color);
+            font-size: map-get($estilo-h2, fontsize);
+            font-weight: map-get($estilo-h2, fontweight);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .main__text {
+            font-family: 'Roboto', sans-serif;
+            color: map-get($estilo-p, color);
+            font-size: map-get($estilo-p, fontsize);
+            font-weight: map-get($estilo-p, fontweight );
+            line-height: map-get($estilo-p, linespace );
+            width: 70%;
+            text-align: center;
+            margin: 0 auto 150px;
+        }
+    }
+    .container {
+        .card__container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            justify-items: center;
+            row-gap: 100px;
+            column-gap: 60px;
+            
+            .card {
+                width: 100%;
+                .card__img {
+                    .img {
+                        width: 100%;
+                    }
+                }
+                .card__body {
+                    font-family: 'Montserrat', sans-serif;
+                    color: map-get($estilo-h3, color);
+                    font-size: map-get($estilo-h3, fontsize);
+                    font-weight: map-get($estilo-h3, fontweight);
+                    margin-top: 20px;
+                    .card__h3 {
+                        font-weight: map-get($estilo-h3, fontweight);
+                        font-size: map-get($estilo-h3, fontsize);
+                    }
+                }
+                .card__info {
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: space-between;
+                    .card__cost {
+                        font-weight: 700;
+                    }
+                    .card__btn {
+                        display: inline-flex;
+                        align-items: center;                       
+                        text-transform: uppercase;                      
+                        &:link, :visited {
+                            color: $color-darkgray;                                   
+                        }
+                        &:hover {
+                            font-weight: 700;
+                        }
+                        .arrow2 {
+                            height: 1rem;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
