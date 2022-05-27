@@ -1,0 +1,87 @@
+.contacto__main {
+    margin: 150px 100px 150px;
+    .contacto__title {
+        .main__title {
+            font-family: 'Montserrat', sans-serif;
+            color: map-get($estilo-h2, color);
+            font-size: map-get($estilo-h2, fontsize);
+            font-weight: map-get($estilo-h2, fontweight);
+            margin-bottom: 50px;
+        }
+    }
+    .form {
+        display: flex;
+        justify-content: space-between;
+        .form__img {
+            width: 50%;
+            .img {
+                width: 90%;
+            }
+        }
+        .form__list {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            .form__name, .form__mail, .form__phone {
+                width: 80%;
+                height: 3rem;
+                margin-bottom: 2rem;
+                font-family: 'Roboto', sans-serif;
+                color: map-get($estilo-p, color);
+                font-weight: 300;
+                font-size: 1.5rem;
+            }
+            .checkbox {
+                margin-bottom: 20px;
+                width: 80%;
+                .title {
+                    font-family: 'Roboto', sans-serif;
+                    color: map-get($estilo-citas, color);
+                    font-size: map-get($estilo-citas, fontsize);
+                    font-weight: map-get($estilo-citas, fontweight );
+                    margin-bottom: 20px;
+                }
+                .checkbox__label {
+                    font-family: 'Roboto', sans-serif;
+                    color: map-get($estilo-p, color);
+                    font-size: map-get($estilo-p, fontsize);
+                    font-weight: map-get($estilo-p, fontweight );
+                }
+                .check {
+                    margin-right: 20px;
+                }
+            }
+            #textarea {
+                width: 80%;
+                height: 200px;
+                font-family: 'Roboto', sans-serif;
+                color: map-get($estilo-p, color);
+                font-weight: 300;
+                font-size: 1.5rem;
+                resize: none;
+            }
+            .form__button {
+                display: inline-flex;
+                align-items: center;
+                background-color: $color-primary;
+                color: #fff;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+                padding: 20px 30px;
+                margin-top: 20px;
+                border: none;
+                .arrow {
+                    height: 1.5rem;
+                    margin-left: 20px;
+                }
+                &:hover {
+                    background-color: $color-lightpink;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}

@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berry Bakery - Respondemos tus dudas y recibimos pedidos de pasteles personalizados</title>
     <!-- CSS stylesheet  -->
-    <!-- <link rel="stylesheet" href="../stylesheet/estilosNuevos.css"> -->
+    <link rel="stylesheet" href="../css/estilosNuevos.css">
     <!-- Google fonts  -->
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:ital,wght@0,300;0,500;0,700;1,500&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:ital,wght@0,300;0,500;0,700;1,500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <!-- Meta keywords  -->
     <meta name="keywords" content="PASTELES PERSONALIZADOS, CONTACTO, ">
 </head>
@@ -29,26 +31,26 @@
             <li class="nav__item"><a href="contacto.html" class="nav__link text-decoration-none">Contacto</a></li>
         </ul>
     </header>
-    <main class="main">
+    <main class="contacto__main">
         <div class="contacto__title">
             <h3 class="main__title">Contactanos</h3></div>
         <div class="form">
             <div class="form__img">
-                <img src="../images/fotos/contacto-img.jpg" alt="">
+                <img src="../images/fotos/contacto-img.jpg" alt="" class="img">
             </div>
             <form action="/ruta-destino" method="get" enctype="" class="form__list">                
                 <input type="text" name="userName" placeholder="Ingresa tu nombre aquí" class="form__name">
                 <input type="email" name="email" placeholder="Ingresa tu mail aquí" class="form__mail">
-                <input type="tel" name="phone" id="telefono" placeholder="Ingresa tu telefono aquí" required class="form__phone">
+                <input type="tel" name="phone" id="telefono" placeholder="Ingresa tu teléfono aquí" required class="form__phone">
                 <div class="checkbox">
-                    <h4> Tipo de pedido</h4>
+                    <h4 class="title"> Tipo de pedido</h4>
                     <label for="personalizado" class="checkbox__label">Pedido personalizado</label>
-                    <input type="radio" name="tipoPedido" id="personalizado" value="personalizado">
+                    <input type="radio" name="tipoPedido" id="personalizado" value="personalizado" class="check">
                     <label for="list" class="checkbox__label">Pedido de listado de productos</label>
                     <input type="radio" name="tipoPedido" id="list" value="list">
                 </div>
                 <textarea name="message" placeholder="Deja tu mensaje" cols="30" rows="10" class="form__input" id="textarea"></textarea>
-                <button type="submit" class="form__button">Enviar</button>
+                <button type="submit" class="form__button">Enviar <img src="../images/icons/next-white.png" alt="" class="arrow"></button>
             </form>
         </div>
 

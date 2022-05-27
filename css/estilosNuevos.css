@@ -188,7 +188,6 @@ li {
       font-size: 1.5rem;
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
-      background-color: #FFE5DD;
       padding: 20px; }
       .main .hero .hero__aside .hero__btn .arrow {
         height: 1.5rem;
@@ -528,3 +527,74 @@ li {
     width: 100%; }
     .ubicacion__main .ubicacion__mapa .map {
       width: 100%; }
+
+.contacto__main {
+  margin: 150px 100px 150px; }
+  .contacto__main .contacto__title .main__title {
+    font-family: 'Montserrat', sans-serif;
+    color: #4E4E4E;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 50px; }
+  .contacto__main .form {
+    display: flex;
+    justify-content: space-between; }
+    .contacto__main .form .form__img {
+      width: 50%; }
+      .contacto__main .form .form__img .img {
+        width: 90%; }
+    .contacto__main .form .form__list {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto; }
+      .contacto__main .form .form__list .form__name, .contacto__main .form .form__list .form__mail, .contacto__main .form .form__list .form__phone {
+        width: 80%;
+        height: 3rem;
+        margin-bottom: 2rem;
+        font-family: 'Roboto', sans-serif;
+        color: #4E4E4E;
+        font-weight: 300;
+        font-size: 1.5rem; }
+      .contacto__main .form .form__list .checkbox {
+        margin-bottom: 20px;
+        width: 80%; }
+        .contacto__main .form .form__list .checkbox .title {
+          font-family: 'Roboto', sans-serif;
+          color: #4E4E4E;
+          font-size: 1.5rem;
+          font-weight: 500;
+          margin-bottom: 20px; }
+        .contacto__main .form .form__list .checkbox .checkbox__label {
+          font-family: 'Roboto', sans-serif;
+          color: #4E4E4E;
+          font-size: 1rem;
+          font-weight: 300; }
+        .contacto__main .form .form__list .checkbox .check {
+          margin-right: 20px; }
+      .contacto__main .form .form__list #textarea {
+        width: 80%;
+        height: 200px;
+        font-family: 'Roboto', sans-serif;
+        color: #4E4E4E;
+        font-weight: 300;
+        font-size: 1.5rem;
+        resize: none; }
+      .contacto__main .form .form__list .form__button {
+        display: inline-flex;
+        align-items: center;
+        background-color: #F25C54;
+        color: #fff;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px 30px;
+        margin-top: 20px;
+        border: none; }
+        .contacto__main .form .form__list .form__button .arrow {
+          height: 1.5rem;
+          margin-left: 20px; }
+        .contacto__main .form .form__list .form__button:hover {
+          background-color: #FFE5DD;
+          color: #F25C54; }
