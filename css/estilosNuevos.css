@@ -484,3 +484,47 @@ li {
           .producto__main .container .card__container .card .card__info .card__btn .arrow2 {
             height: 1rem;
             margin-left: 10px; }
+
+.ubicacion__main {
+  margin: 150px 100px; }
+  .ubicacion__main .ubicacion__title .main__title {
+    font-family: 'Montserrat', sans-serif;
+    color: #4E4E4E;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 50px; }
+  .ubicacion__main .ubicacion__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px; }
+    .ubicacion__main .ubicacion__info .ubicacion__parrafo {
+      width: 45%; }
+      .ubicacion__main .ubicacion__info .ubicacion__parrafo .main__text {
+        font-family: 'Roboto', sans-serif;
+        color: #4E4E4E;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.5; }
+    .ubicacion__main .ubicacion__info .ubicacion__container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 45%; }
+      .ubicacion__main .ubicacion__info .ubicacion__container .info {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .ubicacion__main .ubicacion__info .ubicacion__container .info .icon {
+          height: 3rem;
+          margin-bottom: 10px; }
+        .ubicacion__main .ubicacion__info .ubicacion__container .info .text {
+          font-family: 'Roboto', sans-serif;
+          color: #4E4E4E;
+          font-size: 0.8rem;
+          text-align: center; }
+  .ubicacion__main .ubicacion__mapa {
+    width: 100%; }
+    .ubicacion__main .ubicacion__mapa .map {
+      width: 100%; }
