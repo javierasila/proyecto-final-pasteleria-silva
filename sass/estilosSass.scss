@@ -25,10 +25,18 @@ $estilo-h1: (
     linespace:1,
 );
 
+$estilo-h1-768: (
+    fontsize: 3rem,
+);
+
 $estilo-h2: (
     color: $color-darkgray,
     fontsize: 2rem,
     fontweight: 700,
+);
+
+$estilo-h2-576: (
+    fontsize: 1.5rem,
 );
 
 $estilo-h3: (
